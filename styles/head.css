@@ -1,0 +1,101 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  height: 54px;
+  margin-bottom: 2px;
+  padding: 0 74px;
+  font-size: 13px;
+}
+
+.left-side{
+  display: flex;
+  align-items: center;
+}
+
+.left-side img{
+  width: 110px;
+  padding-right: 20px;
+}
+
+.left-side div{
+  margin-right: 20px;
+  color: #616161;
+}
+
+.left-side div:hover{
+  border-bottom: 2px solid grey;
+  cursor: pointer;
+}
+
+
+.functions{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 20px;
+}
+
+
+
+
+.action{
+  display: flex;
+  align-items: center;
+  color: #616161;
+}
+
+.action:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+.action img{
+  margin-left: 10px;
+  width:12px;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 58px;
+  background-color: #0067b8;
+  color: white;
+
+  cursor: pointer;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: #0067b8;
+  color: white;
+  padding: 6px 0px;
+ 
+}
+
+.details:hover{
+  text-decoration: underline;
+}
+
+.details:active{
+  border: dotted 3px rgb(255, 255, 255);
+
+}
+
+.details img{
+  filter: invert(100%);
+  width: 13px;
+  transition: 150ms;
+}
+
+.details img:hover{
+  padding-left: 5px;
+  
+}

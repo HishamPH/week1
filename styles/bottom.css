@@ -1,0 +1,82 @@
+.more-links{
+  position: absolute;
+  bottom: 72px;
+  height: 320px;
+  display:flex;
+  column-gap: 20px;
+  justify-content: space-between;
+  padding: 0px 73px;
+  background-color: #f2f2f2;
+  width: 1319px;
+  color: #616161;
+}
+.navigation{
+  font-size: 15px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.navigation p{
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.navigation p:hover{
+  text-decoration: underline;
+  
+}
+
+.bottom{
+  position: absolute;
+  background:#f2f2f2;
+  bottom: 0;
+  height: 72px;
+  width: 1319px;
+  padding: 0px 73px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ms-contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 11px;
+}
+
+.ms-contact p{
+  font-size: 11px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+.ms-contact p:hover{
+  text-decoration: underline;
+}
+
+.privacy{
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+
+}
+
+.privacy p:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.globe{
+  width: 24px;
+  margin-right: 10px;
+}
+
+.privacy-icon{
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 33px;
+}

@@ -1,0 +1,8 @@
+.messaging{
+  position:fixed;
+  bottom: 0;
+  height:30px;
+  right:20px;
+  width: 200px;
+  background-color: aqua;
+}

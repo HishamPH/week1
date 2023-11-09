@@ -1,0 +1,171 @@
+.product{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0px 7px;
+}
+
+.product-details{
+  position: absolute;
+  right: 250px;
+  height: 200px;
+  bottom: 100px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+
+}
+
+.product-image{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.product-name{
+font-size:  37px;
+font-weight: bold;
+}
+
+.description{
+  font-size: 16px;
+}
+
+.learn-more{
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #0067b8;
+  border-radius: 2px;
+  padding:10px 10px;
+  transition: 150ms;
+}
+
+.learn-more:hover{
+  background-color: #00599c;
+  cursor: pointer;
+
+}
+
+.play{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  column-gap: 25px;
+  padding: 0px 40px;
+}
+
+.play-button{
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  border:2px solid black;
+  border-radius: 50%;
+}
+
+
+
+.play img{
+  width: 15px;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+  margin: 50px 0px;
+}
+
+.link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link p{
+  color: #0067b8;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.shopping{
+  display: flex;
+  column-gap: 20px;
+ 
+  background-color: rgb(255, 255, 255);
+  margin: 40px 73px;
+}
+
+.products-container{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  transition: 150ms;
+  row-gap: 20px;
+}
+
+.products-container:hover{
+  transform: scale(1.06);
+}
+
+.products-container img{
+  width:100%;
+}
+
+.products-details{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;  
+  align-items: start;
+}
+
+.pdt-name{
+  font-size:  29px;
+  font-weight: bold;
+}
+
+.desc{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.lm{
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+  color: #0067b8;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.lm:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lm img{
+  width: 13px;
+  padding-left: 7px;
+}
+
+
+
+
+.business{
+
+  padding-left: 73px;
+  font-weight: bold;
+  font-size: 37px;
+  margin-bottom: 0;
+  margin-top: 60px;
+}
+
